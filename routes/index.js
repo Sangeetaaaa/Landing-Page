@@ -10,6 +10,14 @@ router.get('/', (req, res) => {
     res.render('home');
 })
 
+router.get('/contactus', (req, res) => {
+    res.render('contact');
+})
+
+router.get('/about', (req, res) => {
+    res.render('about');
+})
+
 
 
 
