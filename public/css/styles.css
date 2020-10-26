@@ -1,0 +1,48 @@
+/* FOOTER STYLING  */
+
+#footer {
+    margin-top: 400px;
+    text-align: left;
+    height: auto;
+}
+
+#footer p {
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer a:hover {
+}
+
+#footer i:hover {
+}
+
+.footer-data {
+    text-align: left;
+    padding: 50px 60px;
+}
+
+.fa_custom {
+    color: #909898;
+    padding: 10px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 15px 50px;
+}
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+.footer-copyright a {
+    color: #909898;
+}
+
+.footer-copyright a:hover {
+    color: #909898;
+    text-decoration: underline;
+}
