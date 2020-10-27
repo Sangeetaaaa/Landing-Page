@@ -1,29 +1,140 @@
 
+
+/* NAVBAR */
+
+.navbar {
+    background: rgb(86,108,211);
+    background: linear-gradient(90deg, rgba(86,108,211,1) 0%, rgba(101,175,233,1) 47%);
+    background-position: ;
+}
+
+
+
+/* ABOUT US PAGE STYLING */
+
+.aboutus .card {
+    box-shadow: 1px 2px 5px #eee;
+    background: rgb(86,108,211);
+    color: white;
+}
+
+
+.aboutus h3 {
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #666;
+}
+
+.aboutus h6 {
+    letter-spacing: 2px;
+}
+
+
+.aboutus a {
+    margin-top: 250px;
+    font-size: 20px;
+    width: 10rem;
+    border-radius: 25px;
+    background-color: #1A1818;
+    border-top: 0px solid;
+    background: rgb(86,108,211);
+    background: linear-gradient(90deg, rgba(86,108,211,1) 0%, rgba(101,175,233,1) 47%);
+    box-shadow: 5px 5px 20px black;
+    margin-bottom: 250px;
+}
+
+
+/* CONTACT PAGE STYLING */
+
+.contact-heading {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 150px;
+}
+
+.contact-details img {
+    height: 50px;
+}
+
+.contact-details p {
+    letter-spacing: 2px;
+}
+
+.special-button {
+    font-size: 20px;
+    width: 10rem;
+    border-radius: 50px;
+    background-color: #1A1818;
+    border-top: 0px solid;
+    background: rgb(86,108,211);
+    background: linear-gradient(90deg, rgba(86,108,211,1) 0%, rgba(101,175,233,1) 47%);
+    box-shadow: 5px 5px 20px black;
+}
+
+
+/* FOOTER STYLING  */
 /* HOME PAGE STYLING */
 
+.home__caption {
+    color: white;
+    margin-top: 250px;
+    width: 40%;
+}
+
+.home__caption>h1 {
+    font-size: 3.8rem;
+}
+
+.home__title {
+    margin: 300px 0 150px 0;
+}
+
+.home__carousel {
+    margin-top: 300px;
+}
+
+.home__img {
+    height: 210px;
+}
+
+.home__captionButton {
+    font-weight: bold;
+    width: 40%;
+    background: rgb(198, 211, 215);
+    background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
 
 
+/* background: rgb(198, 211, 215);
+background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255, 1) 100%); */
 
 
 /* FOOTER STYLING  */
 
 #footer {
-    margin-top: 400px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(94, 136, 252, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    margin-top: 170px;
     text-align: left;
     height: auto;
-}
-
-#footer p {
+    border-top: 1px solid lightgray;
 }
 
 #footer a {
+    color: black;
     text-decoration: none;
 }
 
 #footer a:hover {
+    color: darkgray;
+}
+
+#footer i {
+    color: black;
 }
 
 #footer i:hover {
+    color: darkgray;
 }
 
 .footer-data {
@@ -52,4 +163,37 @@
 .footer-copyright a:hover {
     color: #909898;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav__btn {
+        padding: 10px;
+        background: rgb(198, 211, 215);
+        background: linear-gradient(90deg, rgba(198, 211, 215, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    }
+
+    /* HOME PAGE STYLING */
+    .home__carousel {
+        margin-top: 70px;
+    }
+    .home__caption {
+        visibility: hidden;
+        color: black;
+        margin-top: 10px;
+        width: 40%;
+    }
+    .home__title {
+        margin: 0px 0 150px 0;
+    }
+    .home__caption {
+        color: black;
+        width: 80%;
+        margin: 90px auto 0;
+    }
+    .home__caption>h1 {
+        font-size: 2rem;
+    }
+    #footer {
+        margin-top: 70px;
+    }
 }
