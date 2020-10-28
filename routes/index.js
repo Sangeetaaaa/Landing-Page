@@ -19,6 +19,10 @@ router.get('/about', (req, res) => {
 })
 
 
+router.get('/activities', (req, res) => {
+    res.render('activities');
+})
+
 
 
 
